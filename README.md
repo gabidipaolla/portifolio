@@ -25,4 +25,4 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 :package: novas funcionalidades
 :up: atualização
 :beatle: correção de bug
-:checkred_flag: reliase
+:checkered_flag: release
