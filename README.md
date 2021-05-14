@@ -22,7 +22,7 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 ##icones
 
-:package: novas funcionalidades
-:up: atualização
-:beatle: correção de bug
-:checkered_flag: release
+- :package: novas funcionalidades
+- :up: atualização
+- :beetle: correção de bug
+- :checkered_flag: release
