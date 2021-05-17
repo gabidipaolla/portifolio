@@ -333,10 +333,7 @@ header{
     width: 80%;
     margin-bottom: 1rem;
 }
-
-  .card-info button {
-    width: 8rem;
-    height: 2.5rem;
+.btn{
     background: #F2994A; 
     background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  
     background: linear-gradient(to right, #F2C94C, #F2994A);
@@ -345,6 +342,12 @@ header{
     border-radius: 0.5rem;
     border: none;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;  
+}
+  .card-info button {
+    width: 8rem;
+    height: 2.5rem;
+    
   }
   
   .card:hover .card-info {
@@ -352,3 +355,84 @@ header{
     opacity: 1;
     visibility: visible;
   }
+
+  .sessao-contato{
+      width: 100%;
+      height: 100vh;
+      background-color: #222c40;
+      opacity: 0.6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .contato-wrapper {
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+  }
+  .contato-left {
+    width: 35%;
+    background: linear-gradient(rgba(220, 220, 220, 0.4), rgba(28, 28, 28, 0.8)),
+      url(images/contact.jpg);
+    background-size: cover;
+  }
+  .contato-right {
+    width: 65%;
+    background-color: #d9d9d9;
+    padding: 1rem 3rem 3rem 3rem;
+  }
+  .sessao-contato h1 {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    color: #222c40;
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+  .sessao-contato form{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .input-group{
+      position: relative;
+  }
+  .field{
+      background: transparent;
+      border: none;
+      width: 20rem;
+      font-size: 1.5rem;
+      font-family: var(--font-secondry);
+      border-bottom: 1px solid #222c40;
+      height: 3rem;
+      outline: none;
+      margin: 1rem 0;
+
+  }
+  .input-group textarea{
+      padding-top: 1rem;
+      max-width: 25rem;
+      max-height: 3rem;
+  }
+  .field-label{
+      position: absolute;
+      left: 0;
+      top: 2rem;
+      font-size: 1.2rem;
+      font-family: var(--font-secondry);
+      text-transform: uppercase;
+  }
+  .field:focus ~ label {
+        top: 0;
+        font-size: 0.7rem;
+  }
+.btn-submit{
+    width: 40%;
+    text-transform: uppercase;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+   
+
