@@ -370,20 +370,17 @@ header{
     height: 30rem;
     display: flex;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
   }
   .contato-left {
     width: 35%;
     background: linear-gradient(rgba(220, 220, 220, 0.4), rgba(28, 28, 28, 0.8)),
       url(images/contact.jpg);
     background-size: cover;
-    border-radius: 10px 10px;
   }
   .contato-right {
     width: 65%;
     background-color: #d9d9d9;
     padding: 1rem 3rem 3rem 3rem;
-    border-radius: 0.5rem;
   }
   .sessao-contato h1 {
     width: 100%;
@@ -451,25 +448,21 @@ header{
   .sessao-orcamento{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./images//bg-orcamento.jpg");
+    background: url("./images//bg-orcamento.jpg");
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    background: rgba(0,0,0,0.5);
   }
- 
   .orcamento-wrapper{
       width: 60%;
-      height: 70%;
-      background-color:  #d9d9d9ED;
+      height: 80%;
+      background-color: #d9d9d9F2;
       border-radius: 10px;
       box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
       position: relative;
-      
   }
-
   .sessao-orcamento h1{
       text-align: center;
       padding: 0.3rem;
@@ -504,19 +497,18 @@ header{
       border: none;
       padding: 0.3rem;
   }
- 
+  .sessao-orcamento input[type="checkbox"]{
+    width: 105%;
+    height: 105%;
+     
+     
+  }
   .btn-orcamento{
     color: #222c40  !important;
     font-size: 1.2rem;
-    text-transform: uppercase;
-    width: 100%;
-    height: 2.5rem;
-    margin-top: 1rem;
-    letter-spacing: 0.2rem;
+    text-transform: uppercase;  
+    padding: 1rem;
     cursor: pointer;
-    text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
-    
-      
+    grid-column: 2;          
   }
 
